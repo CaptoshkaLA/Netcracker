@@ -14,11 +14,11 @@ import java.time.*;
 
 public abstract class Contract {
 
-    private int ID;
-    private int contractNumber;
-    private Person contractOwner;
-    private LocalDate firstDate;
-    private LocalDate secondDate;
+    protected int ID;
+    protected int contractNumber;
+    protected Person contractOwner;
+    protected LocalDate firstDate;
+    protected LocalDate secondDate;
 
     /** Сonstructor with parameters */
     public Contract(int ID, String firstDate, String secondDate, int contractNumber, Person contractOwner) {

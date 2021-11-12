@@ -9,7 +9,7 @@ import Person.Person;
  */
 public class TelevisionContract extends Contract {
 
-    private String channelsList;
+    protected String channelsList;
 
     /** Default constructor */
     public TelevisionContract() {

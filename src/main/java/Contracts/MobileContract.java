@@ -9,9 +9,9 @@ import Person.Person;
  */
 public class MobileContract extends Contract {
 
-    private int countMinutes;
-    private int countSms;
-    private int traffic;
+    protected int countMinutes;
+    protected int countSms;
+    protected int traffic;
 
     /** Default constructor */
     public MobileContract() {

@@ -13,12 +13,12 @@ import java.time.*;
  */
 public class Person {
 
-    private int ID;
-    private String name;
-    private LocalDate birthdayDate;
-    private String gender;
-    private String passportNumber;
-    private int age;
+    protected int ID;
+    protected String name;
+    protected LocalDate birthdayDate;
+    protected String gender;
+    protected String passportNumber;
+    protected int age;
 
     /** Default constructor */
     public Person() {

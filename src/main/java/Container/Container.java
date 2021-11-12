@@ -8,13 +8,13 @@ import Contracts.Contract;
 public class Container{
 
     // Array making the list
-    Contract[] items;
+    protected Contract[] items;
 
     // Number of items in the list
-    private int size;
+    protected int size;
 
     // Start size of the entire array
-    private int ARRAY_SIZE = 16;
+    protected int ARRAY_SIZE = 16;
 
     /**
      * Default constructor

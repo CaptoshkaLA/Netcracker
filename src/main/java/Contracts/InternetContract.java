@@ -9,7 +9,7 @@ import Person.Person;
  */
 public class InternetContract extends Contract {
 
-    private int internetSpeed;
+    protected int internetSpeed;
 
     /** Default constructor */
     public InternetContract() {
